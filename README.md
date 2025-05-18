@@ -201,6 +201,10 @@ pip install onnxruntime-gpu==1.16.3
 python run.py --execution-provider cuda
 ```
 
+If you manage your dependencies with **Anaconda** on Windows, use the provided
+`run-anaconda-cuda.bat` script to automatically activate the `deeplivecam`
+environment and launch the GPU version.
+
 **CoreML Execution Provider (Apple Silicon)**
 
 Apple Silicon (M1/M2/M3) specific installation:
